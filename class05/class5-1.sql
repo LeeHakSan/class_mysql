@@ -4,7 +4,7 @@
 -- DROP DATABASE school; -- 데이터 베이스 삭제 
 CREATE DATABASE school; -- 데이터 베이스 생성
 use school;
-테이블 생성
+-- 테이블 생성
 CREATE TABLE student (
 	student_id int primary key,
     name varchar(50) not null,
@@ -27,15 +27,6 @@ alter table student drop column email;
 -- drop table student;
 
 -- 데이터 베이스 삭제 
--- DROP DATABASE school; 
-
-
-
-
-
-
-
-
-
+-- DROP DATABASE school;
 
 
